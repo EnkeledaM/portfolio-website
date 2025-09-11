@@ -2,44 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Enkeleda | Portfolio</title>
-  <link rel="stylesheet" href="css/style.production.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enkeleda Mustafaj — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="index.html">
-      <img src="img/logo.png" alt="Logo" />
-    </a>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li><a class="nav__link nav__link--active" href="index.html">Home</a></li>
-        <li><a class="nav__link" href="work.html">Work</a></li>
-        <li><a class="nav__link" href="about.html">About</a></li>
-        <li><a class="nav__link" href="contact.html">Contact</a></li>
+  <header>
+    <h1>Enkeleda Mustafaj</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <img class="hero__avatar" src="img/avatar.jpg" alt="Enkeleda" />
-      <div class="hero__text">
-        <h1>Hello, I’m Enkeleda</h1>
-        <p>Junior Web Developer in the making — building an education platform.</p>
-        <div class="hero__actions">
-          <a class="button" href="work.html">See my work</a>
-          <a class="button button--secondary" href="contact.html">Contact me</a>
-        </div>
-      </div>
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>
+        Hi! I’m Enkeleda — a motivated learner transitioning into software engineering.
+        Në këtë faqe do gjeni disa nga punët dhe ushtrimet e mia gjatë kursit.
+      </p>
+      <p><a href="work.html">See my projects →</a></p>
+    </section>
+
+    <section>
+      <h2>Latest</h2>
+      <ul>
+        <li>Updated the About page with a clearer summary.</li>
+        <li>Added full contact information and useful links.</li>
+      </ul>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Enkeleda</p>
+  <footer>
+    <p>&copy; <span id="y"></span> Enkeleda Mustafaj</p>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
+
 
 

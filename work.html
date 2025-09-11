@@ -2,73 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Work — Enkeleda</title>
-  <link rel="stylesheet" href="css/style.production.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work — Enkeleda Mustafaj</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="index.html"><img src="img/logo.png" alt="Logo" /></a>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
-        <li><a class="nav__link nav__link--active" href="work.html">Work</a></li>
-        <li><a class="nav__link" href="about.html">About</a></li>
-        <li><a class="nav__link" href="contact.html">Contact</a></li>
+  <header>
+    <h1>Work</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html" aria-current="page">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="container">
-    <h1>Projects</h1>
-    <div class="work-grid">
-      <!-- 8 cards -->
-      <article class="card card--primary">
-        <img src="img/project1.jpg" alt="Project 1" />
-        <h3>Project One</h3><p>Landing page with responsive grid.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
+  <main>
+    <section>
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Project One — Sales Dashboard</h3>
+        <p>Layout responsiv me HTML/CSS; fokus te grid/flex dhe tipografi e pastër.</p>
+        <p><em>Tech:</em> HTML, CSS</p>
       </article>
-      <article class="card card--dark">
-        <img src="img/project2.jpg" alt="Project 2" />
-        <h3>Project Two</h3><p>Form accessibility & validation.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
+
+      <article class="project">
+        <h3>Project Two — Product Landing Page</h3>
+        <p>Faqe prezantuese me hero section, navigim dhe butona CTA.</p>
+        <p><em>Tech:</em> HTML, CSS</p>
       </article>
-      <article class="card card--light">
-        <img src="img/project3.jpg" alt="Project 3" />
-        <h3>Project Three</h3><p>Flexbox navigation & footer.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
+
+      <article class="project">
+        <h3>Project Three — Personal Portfolio</h3>
+        <p>Ky website: strukturë semantike, aksesueshmëri bazike dhe versionim me Git/GitHub.</p>
+        <p><em>Tech:</em> HTML, CSS, Git</p>
       </article>
-      <article class="card card--primary">
-        <img src="img/project4.jpg" alt="Project 4" />
-        <h3>Project Four</h3><p>Animations & transitions.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
-      </article>
-      <article class="card card--dark">
-        <img src="img/project5.jpg" alt="Project 5" />
-        <h3>Project Five</h3><p>CSS Grid gallery.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
-      </article>
-      <article class="card card--light">
-        <img src="img/project6.jpg" alt="Project 6" />
-        <h3>Project Six</h3><p>Form UX improvements.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
-      </article>
-      <article class="card card--primary">
-        <img src="img/project7.jpg" alt="Project 7" />
-        <h3>Project Seven</h3><p>Utility classes & spacing scale.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
-      </article>
-      <article class="card card--dark">
-        <img src="img/project8.jpg" alt="Project 8" />
-        <h3>Project Eight</h3><p>Accessible color contrast.</p>
-        <a class="button button--secondary" href="#" target="_blank" rel="noopener">View</a>
-      </article>
-    </div>
+    </section>
   </main>
 
-  <footer class="site-footer"><p>© <span id="year"></span> Enkeleda</p></footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <footer>
+    <p>&copy; <span id="y"></span> Enkeleda Mustafaj</p>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
+
 
 
