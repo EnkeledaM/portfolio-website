@@ -8,13 +8,15 @@
 </head>
 <body>
   <header>
-    <h1>Contact</h1>
+    <a href="index.html">
+      <img src="img/logo.svg" alt="Enkeleda Mustafaj Logo" class="logo" />
+    </a>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="work.html">Work</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -31,9 +33,11 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Enkeleda Mustafaj</p>
+    <p>&copy; <span id="y"></span> Enkeleda Mustafaj</p>
   </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
+
 
 
