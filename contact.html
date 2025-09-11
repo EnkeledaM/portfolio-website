@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Enkeleda</title>
+  <link rel="stylesheet" href="css/style.production.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="work.html">Work</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link nav__link--active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Get in touch</h1>
+    <form class="form" action="#" method="post">
+      <label>Name <input type="text" name="name" required /></label>
+      <label>Email <input type="email" name="email" required /></label>
+      <label>Message <textarea name="message" rows="5" required></textarea></label>
+      <button class="button" type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer class="site-footer"><p>© <span id="year"></span> Enkeleda</p></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

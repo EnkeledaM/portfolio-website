@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enkeleda | Portfolio</title>
+  <link rel="stylesheet" href="css/style.production.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <img src="img/logo.png" alt="Logo" />
+    </a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a class="nav__link nav__link--active" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="work.html">Work</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img class="hero__avatar" src="img/avatar.jpg" alt="Enkeleda" />
+      <div class="hero__text">
+        <h1>Hello, I’m Enkeleda</h1>
+        <p>Junior Web Developer in the making — building an education platform.</p>
+        <div class="hero__actions">
+          <a class="button" href="work.html">See my work</a>
+          <a class="button button--secondary" href="contact.html">Contact me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Enkeleda</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+
