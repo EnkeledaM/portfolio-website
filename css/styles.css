@@ -1,14 +1,14 @@
-.logo {
-  height: 50px;
+/* Qendro përmbajtjen kryesore dhe kufizo gjerësinë */
+main {
+  max-width: 960px;   /* 800–1100px është sweet spot */
+  margin: 0 auto;     /* qendron horizontalisht */
+  padding: 1rem;      /* hapësirë brenda */
 }
 
-.avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 1rem;
+/* Mund ta bësh edhe header/footer të ndjekin të njëjtën linjë */
+header, footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
 }
-
-
 
