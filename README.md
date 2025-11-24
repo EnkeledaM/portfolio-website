@@ -64,3 +64,4 @@ As part of Bonus Task 1, I implemented **custom JavaScript form validation** in 
 
 ---
 
+25.11.2025. E.Mustafaj
