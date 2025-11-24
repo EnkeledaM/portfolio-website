@@ -1,11 +1,12 @@
 # Portfolio Exercise 1.8 – CSS Preprocessors, CSS Variables & SCSS
 
-## Overview
+## 🎯 Overview
 This project was created as part of the **CareerFoundry Intro to Software Engineering** course, Exercise **1.8**.  
 The goal of this exercise was to practice using **SCSS preprocessors**, understand the difference between **preprocessors** and **postprocessors**, and implement **CSS variables** in a real portfolio project.
 
 ---
-## Part 1 – SCSS Practice (CodePen)
+
+## 🧩 Part 1 – SCSS Practice (CodePen)
 In this step, I converted the provided CSS into **SCSS**, applying the required features:
 
 - SCSS **variables** for colors and spacing  
@@ -14,11 +15,12 @@ In this step, I converted the provided CSS into **SCSS**, applying the required 
 - **`@extend`** using a shared placeholder selector  
 - Nested **`:hover`** state to remove the box-shadow on hover  
 
-**SCSS CodePen link:**  
+🖇️ **SCSS CodePen link:**  
 *(insert your CodePen link here, e.g. https://codepen.io/EnkeledaM/pen/empxooX)*
 
 ---
-## Part 2 – Portfolio Project with CSS Variables
+
+## 🖥️ Part 2 – Portfolio Project with CSS Variables
 In my portfolio, I replaced all repeated values with **CSS custom properties** and created a full production workflow.
 
 ### Implemented:
@@ -30,7 +32,8 @@ In my portfolio, I replaced all repeated values with **CSS custom properties** a
 6. Added and styled multiple project entries on the Work page.
 
 ---
-## Bonus Task 1 – Form Validation (Portfolio Website)
+
+## ⭐ Bonus Task 1 – Form Validation (Portfolio Website)
 As part of Bonus Task 1, I implemented **custom JavaScript form validation** in my `contact.html` page.
 
 The validation includes:
@@ -45,7 +48,8 @@ Files included:
 
 ---
 
-## Key Learnings
+
+## 🧠 Key Learnings
 - How to use SCSS to create more maintainable and modular styles  
 - The difference between **preprocessors** (SCSS) and **postprocessors** (Autoprefixer)  
 - When to use CSS variables vs. SCSS variables  
@@ -53,6 +57,8 @@ Files included:
 - Implementing real **form validation** with JavaScript  
 
 ---
-CareerFoundry – Intro to Software Engineering (Exercise 1.8)
 
+## 👩‍💻 Author
+**Enkeleda Mustafaj**  
+CareerFoundry – Intro to Software Engineering (Exercise 1.8)
 

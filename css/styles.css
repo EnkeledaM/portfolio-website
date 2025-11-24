@@ -221,3 +221,8 @@ form {
     gap: var(--space-1);
   }
 }
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}
