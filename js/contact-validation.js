@@ -44,7 +44,7 @@
       return false;
     }
 
-    if (!value.includes('@') || !value.includes('.')) {
+  if (!value.includes('@') && !value.includes('.')) {
       showErrorMessage(emailInput, 'You must enter a valid email address.');
       return false;
     }
